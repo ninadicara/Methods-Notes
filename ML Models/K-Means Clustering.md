@@ -2,13 +2,12 @@ Aims to minimise the distance between each data point and it's assigned cluster.
 - Clustering similar patients, customers etc,
 - Image segmentation.
 
-
 ## Technical concepts
 
 Distance metric options:
 - Euclidian distance for continuous variables
 - Manhattan distance for categorical variables
-- Cosine similarity is potentially an option instead of Euclidian distance.h
+- Cosine similarity is potentially an option instead of Euclidian distance.
 
 **Inertia** calculates the sum of distances of all the points within a cluster from the centroid of that cluster.
 

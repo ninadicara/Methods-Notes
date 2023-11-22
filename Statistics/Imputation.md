@@ -36,3 +36,4 @@ imputed_X_valid.columns = X_valid.columns
 
 ## Multiple Imputation by Chained Equations (MICE)
 
+Imputes one column by creating a regression equation using the rest of the input columns as independent variables. It does this for each column in turn, and can be iterated multiple times.

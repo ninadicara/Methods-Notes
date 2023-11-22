@@ -14,6 +14,7 @@ These images by [Allison Horst](https://allisonhorst.com/everything-else) illust
 ![PCA2|300](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/c0b2a110-60ee-41c6-90e0-8f399141f128_rw_1920.png?h=d6394a7c0693830945f568a0605a2475)
 
 ## Technical stuff 
+
 The percentage of variance explained by each principle component is the eigenvalue which is the average distance from each point to the slope. 
 The eigen vector is a unit increase along the slope. 
 
@@ -27,7 +28,7 @@ You can calculate the cumulative amount of variance explained by using each addi
 
 However, if you're trying to plot it, you obviously only want 2 or 3. 
 
-You can use a scree plot to visualise this too. 
+You can use a scree plot ('elbow plot') to visualise this too. 
 On a scree plot the eigen values are on the y axis and each PC is on the x axis. 
 You can look for the 'elbow' in the data, where the eigen values get much smaller and so are less important in representing the data.  
 

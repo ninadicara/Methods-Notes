@@ -1,12 +1,16 @@
 
-## Missing Values
+Pre-processing is the process of tidying and organising your data for analysis. This is likely to include imputing missing data, perhaps turning categorical data into numeric data, scaling and normalising variables and removing outliers. 
+
+Pre-processing is different to [[Feature Engineering]] which relates more to manipulating the tidied dataset to create new variables that better represent the problem. 
+ 
+## Imputing Missing Values
 
 Check out [[Imputation]] for details on how to perform this in Python.
 
 Note:: When we're doing machine learning, we might want to include a column that indicates whether a value has been imputed for that row, and give it as a training feature. 
 This might help the model to adjust for potentially greater error in imputed values.
 
-## Categorical Data
+## Encoding Categorical Data
 
 ### Ordinal Variables
 
@@ -66,3 +70,25 @@ OH_X_valid.columns = OH_X_valid.columns.astype(str)
 ```
 
 %% Notes from #Kaggle Intermediate Machine Learning %%
+
+## Addressing Outliers
+
+An important pre-processing step can be to identify (and remove) outliers. 
+
+
+## Normalising 
+
+Scaling and centering are part of normalising data. For example
+
+`scale()` in Python will mean center a variable so the mean is 0 and the standard deviation is 1. 
+
+## Natural Language
+
+When working with textual data there are some specific techniques we might use. 
+This include
+- Tokenisation: splitting sentences into individual words
+- Removing rare words and stop words (very common words)
+- Stemming and lemmatisation - this creates a single feature for the same word with different endings ('helped', 'helping', 'helps' = 'help')
+
+
+

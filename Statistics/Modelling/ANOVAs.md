@@ -70,7 +70,7 @@ Many statistical programmes will do this for you, but need to check.
 ### 2 x 2 mixed ANOVA
 
 Researchers sometimes use this design for 'pre-test' and 'post-test' as the within-subjects variable.
-However, power can be increased by including the pretest as a covariate (i.e. by regressing the posttest on both the between-subjects variable and the pretest). 
+However, power can be increased by including the pretest as a covariate (i.e. by regressing the post-test on both the between-subjects variable and the pretest). 
 This is dependent on some assumptions.
 ### 3 x 2 mixed ANOVA
 
@@ -82,7 +82,7 @@ Can contain within-subjects independent variables with more than two levels, suc
 Should be used when: 
 - continuous dependent variable
 - two or more categorical independent variables
-- at least one independent variable that vaires between-units
+- at least one independent variable that varies between-units
 - at least one independent variable that varies within units.
 Where units are usually subjects. 
 

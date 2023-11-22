@@ -1,7 +1,0 @@
-
-
-## Standard Error
-
-
-
-## Confidence Intervals
